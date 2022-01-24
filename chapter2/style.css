@@ -1,0 +1,60 @@
+.padded {
+    font-size: 16px;
+    padding: 1em;
+}
+
+.box {
+    padding: 1em;
+    border-radius: 1em;
+    background-color: lightgray;
+}
+
+.box-small {
+    font-size: 12px;
+}
+
+.box-large {
+    font-size: 18px;
+}
+
+body {
+    font-size: 16px;
+}
+
+ul {
+    font-size: .8em;
+  }
+
+.slogan {
+    font-size: 1.2em;
+    padding: 1.2em;
+    background-color: #ccc;
+}
+
+:root {
+    font-size:calc(0.5em + 1vw);
+}
+
+.panel {
+    font-size: 1rem;
+    padding: 1em;
+    border-radius: 0.5em;
+    border: 1px solid #999;
+}
+
+.panel.large {
+    font-size: 1.2rem;
+}
+
+.panel > h2 {
+    margin-top: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.square {
+    width: 90vmin;
+    height: 90vmin;
+    background-color: #369;
+  }
